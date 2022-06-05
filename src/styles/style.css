@@ -7,17 +7,25 @@
 
 
 body {
-  background-color: rgb(17, 54, 57);
+  background-image: url(../images/img_fellowLogo.JPG);
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
   margin: 0;
+  width: 100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 
               'Lucida Grande', 'Lucida Sans Unicode', 
                 Geneva, Verdana, sans-serif;
 }
 
+
+
 nav {
+  background-color: rgb(6, 82, 86);
   font-size: 1.5vw;
   padding: 2vh 0vw 0vh 0vw;
-  background-color: rgb(6, 82, 86);
   height: 6vh;
   display: flex;
   flex-wrap: nowrap;
@@ -30,14 +38,14 @@ nav a {
 }
 
 .h1 {
+  background-color: rgb(6, 82, 86);
   margin-top: -3vh;
-  padding: 9vh 0vw 3vh 4.5vw;
+  padding: 3vh 0vw 3vh 4.5vw;
   font-size: 3.7vw;
   font-weight: 100;
   letter-spacing: 0.01vw;
   display: flex;
   flex-wrap: nowrap;
-  background-color: rgb(6, 82, 86);
   color: white;
   border-top: 0.1vh solid black;
 }
@@ -56,21 +64,15 @@ nav a {
   padding: 1.5vh 0vw 0vh 0vw;
 }
 
+
 .welcome {
-  margin: -2vh 3vw;
-  background-color: rgb(17, 54, 57);
-  background-repeat: no-repeat;
-  background-position: 6vw 6vh;
+  background-color: rgba(17, 54, 57, 0.901);
+  height: 10vh;
+  margin: -3vh 0vw 0vh 0vw;
   color: rgb(62, 238, 238);
   font-size: 2.2vw;
   font-weight: 100;
-}
-
-.img {
-  margin: -5vh 0vw 3vh 0vw;
-  padding: 0vh 5vw 0vh 5vw;
-  opacity: 95%;
-  background: linear-gradient(175deg, rgb(6, 82, 86) 10%, rgb(17, 54, 57) 23%, black 67%);
+  padding: 1vh 0vw 0vh 3vw;
 }
 
 h2 {
@@ -80,20 +82,29 @@ h2 {
   letter-spacing: 0.01vw;
   color: rgb(62, 238, 238);
   margin: 0vh 0vw 0vh 0vw;
-  background-color: rgb(17, 54, 57);
   border-bottom: 0.2vh solid white;
 }
 
 .hours {
-  padding: 0vh 3vw 0vh 3vw;
+  background-color: rgba(17, 54, 57, 0.97);
+  padding: 4vh 3vw 10vh 3vw;
   color: white;
 }
 
+.space {
+  padding: 65vh 0vw 0vh 0vw;
+  border-style: solid;
+  border-width: 3vh 15vw 2vh 15vw;
+  border-image: radial-gradient(rgb(12, 151, 158), rgb(49, 152, 161), black) 1;
+  /* border: 5vh solid black; */
+}
+
 footer {
+  background-color: rgb(17, 54, 57);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 5vh 3vw 0vh 3vw;
+  padding: 5vh 3vw 15vh 3vw;
   color: white;
 }
 
