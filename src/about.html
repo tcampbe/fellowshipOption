@@ -3,6 +3,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -49,9 +50,12 @@
 
     <div class="principles">
       <h2>
-        Our Beliefs
+        Our Beliefs 
+        <button onclick="toggle('beliefs', 'showBeliefs')" id="showBeliefs">
+          Show
+        </button>
       </h2>
-      <p class="beliefs">
+      <p class="beliefs" id="beliefs">
         We are Christian by faith and Southern Baptist by denomination.
         <br>
         <br>
@@ -72,8 +76,11 @@
 
       <h2>
         The Scriptures
+        <button onclick="toggle('scriptures', 'showScriptures')" id="showScriptures">
+          Show
+        </button>
       </h2>
-      <p class="scriptures">
+      <p class="scriptures" id="scriptures">
         The Holy Bible was written by men divinely inspired and is 
         God's revelation of Himself to man. It is a perfect treasure of 
         divine instruction. It has God for its author, salvation for 
@@ -89,8 +96,11 @@
      
       <h2>
         God
+        <button onclick="toggle('god', 'showGod')" id="showGod">
+          Show
+        </button>
       </h2>
-      <p class="god">
+      <p class="god" id="god">
         There is one and only one living and true God.
          …The eternal triune God reveals Himself to us as Father, 
          Son and Holy Spirit, with distinct personal attributes, 
@@ -99,8 +109,11 @@
 
       <h2>
         God the Father
+        <button onclick="toggle('father', 'showFather')" id="showFather">
+          Show
+        </button>
       </h2>
-      <p class="father">
+      <p class="father" id="father">
         God as Father reigns with providential care over His universe, 
         His creatures, and the flow of the stream of human history 
         according to the purposes of His grace. …God is Father in 
@@ -110,8 +123,11 @@
 
       <h2>
         God the Son
+        <button onclick="toggle('son', 'showSon')" id="showSon">
+          Show
+        </button>
       </h2>
-      <p class="son">
+      <p class="son" id="son">
         Christ is the eternal Son of God. In His incarnation 
         as Jesus Christ, He was conceived of the Holy Spirit 
         and born of the virgin Mary. …He honored the divine law 
@@ -122,8 +138,11 @@
 
       <h2>
         God the Holy Spirit
+        <button onclick="toggle('spirit', 'showSpirit')" id="showSpirit">
+          Show
+        </button>
       </h2>
-      <p class="spirit">
+      <p class="spirit" id="spirit">
         The Holy Spirit is the Spirit of God, fully divine.
         …He exalts Christ. He convicts men of sin, of righteousness 
         and of judgment. …He enlightens and empowers the believer 
@@ -132,8 +151,11 @@
 
       <h2>
         Man
+        <button onclick="toggle('man', 'showMan')" id="showMan">
+          Show
+        </button>
       </h2>
-      <p class="man">
+      <p class="man" id="man">
         Man is the special creation of God, in His own image. 
         He created them male and female as the crowning work of 
         His creation. …By his free choice man sinned against God 
@@ -146,8 +168,11 @@
       
       <h2>
         Salvation
+        <button onclick="toggle('salvation', 'showSalvation')" id="showSalvation">
+          Show
+        </button>
       </h2>
-      <p class="salvation">
+      <p class="salvation" id="salvation">
         Salvation involves the redemption of the whole man, 
         and is offered freely to all who accept Jesus Christ 
         as Lord and Saviour, who by His own blood obtained 
@@ -158,8 +183,11 @@
 
       <h2>
         God's Purpose of Grace
+        <button onclick="toggle('grace', 'showGrace')" id="showGrace">
+          Show
+        </button>
       </h2>
-      <p class="grace">
+      <p class="grace" id="grace">
         Election is the gracious purpose of God, according to 
         which He regenerates, justifies, sanctifies, and glorifies 
         sinners. …All true believers endure to the end. 
@@ -170,8 +198,11 @@
       
       <h2>
         The Church
+        <button onclick="toggle('church', 'showChurch')" id="showChurch">
+          Show
+        </button>
       </h2>
-      <p class="church">
+      <p class="church" id="church">
         A New Testament church of the Lord Jesus Christ is 
         an autonomous local congregation of baptized believers, 
         associated by covenant in the faith and fellowship 
@@ -190,8 +221,11 @@
 
       <h2>
         Baptism
+        <button onclick="toggle('baptism', 'showBaptism')" id="showBaptism">
+          Show
+        </button>
       </h2>
-      <p class="baptism">
+      <p class="baptism" id="baptism">
         Christian baptism is the immersion of a believer in water. 
         …It is an act of obedience symbolizing the believer's 
         faith in a crucified, buried, and risen Saviour, 
@@ -202,8 +236,11 @@
 
       <h2>
         The Lord's Supper
+        <button onclick="toggle('supper', 'showSupper')" id="showSupper">
+          Show
+        </button>
       </h2>
-      <p class="supper">
+      <p class="supper" id="supper">
         The Lord's Supper is a symbolic act of obedience 
         whereby members … memorialize the death of the Redeemer 
         and anticipate His second coming.
@@ -211,8 +248,11 @@
       
       <h2>
         Evangelism & Missions
+        <button onclick="toggle('evangelism', 'showEvangelism')" id="showEvangelism">
+          Show
+        </button>
       </h2>
-      <p class="evangelism">
+      <p class="evangelism" id="evangelism">
         It is the duty and privelege of every follower 
         of Christ and every church of the Lord Jesus Christ 
         to endeavor to make disciples of all nations... 
@@ -223,8 +263,11 @@
 
       <h2>
         The Lord's Day
+        <button onclick="toggle('sunday', 'showSunday')" id="showSunday">
+          Show
+        </button>
       </h2>
-      <p class="sunday">
+      <p class="sunday" id="sunday">
         The first day of the week is the Lord's Day. 
         …It commemorates the resurrection of Christ from 
         the dead and should be employed in exercises 
@@ -233,8 +276,11 @@
       
       <h2>
         Last Things
+        <button onclick="toggle('last', 'showLast')" id="showLast">
+          Show
+        </button>
       </h2>
-      <p class="last">
+      <p class="last" id="last">
         God, in His own time and in His own way, 
         will bring the world to its appropriate end. 
         …Jesus Christ will return personally and visibly
@@ -247,8 +293,11 @@
 
       <h2>
         Education
+        <button onclick="toggle('education', 'showEducation')" id="showEducation">
+          Show
+        </button>
       </h2>
-      <p class="education">
+      <p class="education" id="education">
         The cause of education in the Kingdom of Christ is 
         co-ordinate with the causes of missions and general 
         benevolence … there should be a proper balance between 
@@ -262,8 +311,11 @@
 
       <h2>
         Stewardship
+        <button onclick="toggle('stewardship', 'showStewardship')" id="showStewardship">
+          Show
+        </button>
       </h2>
-      <p class="stewardship">
+      <p class="stewardship" id="stewardship">
         God is the source of all blessings, temporal and spiritual; 
         all that we have and are we owe to Him. 
         Christians have a spiritual debtorship to the whole world, 
@@ -275,8 +327,11 @@
       
       <h2>
         Cooperation
+        <button onclick="toggle('cooperation', 'showCooperation')" id="showCooperation">
+          Show
+        </button>
       </h2>
-      <p class="cooperation">
+      <p class="cooperation" id="cooperation">
         Christ's people should … organize such associations 
         and conventions as may best secure cooperation 
         for the great objects of the Kingdom of God. 
@@ -287,8 +342,11 @@
 
       <h2>
         The Christian & the Social Order
+        <button onclick="toggle('social', 'showSocial')" id="showSocial">
+          Show
+        </button>
       </h2>
-      <p class="social">
+      <p class="social" id="social">
         All Christians are under obligation to seek to 
         make the will of Christ supreme in our own lives 
         and in human society... in the spirit of Christ, 
@@ -304,8 +362,11 @@
 
       <h2>
         Religious Liberty
+        <button onclick="toggle('liberty', 'showLiberty')" id="showLiberty">
+          Show
+        </button>
       </h2>
-      <p class="liberty">
+      <p class="liberty" id="liberty">
         Church and state should be separate. The state owes to 
         every church protection and full freedom in the pursuit 
         of its spiritual ends. …A free church in a free state 
@@ -314,8 +375,11 @@
       
       <h2>
         Family
+        <button onclick="toggle('family', 'showFamily')" id="showFamily">
+          Show
+        </button>
       </h2>
-      <p class="family">
+      <p class="family" id="family">
         God has ordained the family as the foundational 
         institution of human society. It is composed of 
         persons related to one another by marriage, 
@@ -379,7 +443,7 @@
       </div>
 
     </footer>
-
+    <script src="script/about.js"></script>
   </body>
 
 </html>
