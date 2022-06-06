@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: rgb(17, 54, 57);
+    background: linear-gradient(95deg, rgb(36, 37, 70), rgb(114,54,137), rgb(129,23,99), rgb(152,31,65), rgb(166,26,39), rgb(247,234,93));
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 
                 'Lucida Grande', 'Lucida Sans Unicode', 
@@ -16,7 +16,7 @@ body {
   nav {
     font-size: 1.5vw;
     padding: 2vh 0vw 0vh 0vw;
-    background-color: rgb(6, 82, 86);
+    background-color: rgb(36, 37, 70);
     height: 6vh;
     display: flex;
     flex-wrap: nowrap;
@@ -36,7 +36,7 @@ body {
     letter-spacing: 0.01vw;
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgb(6, 82, 86);
+    /* background-color: rgb(6, 82, 86); */
     color: white;
     border-top: 0.1vh solid black;
   }
@@ -57,7 +57,7 @@ body {
   
   .welcome {
     margin: -2vh 3vw;
-    background-color: rgb(17, 54, 57);
+    /* background-color: rgb(17, 54, 57); */
     background-repeat: no-repeat;
     background-position: 6vw 6vh;
     color: rgb(62, 238, 238);
@@ -79,7 +79,7 @@ body {
     letter-spacing: 0.01vw;
     color: rgb(62, 238, 238);
     margin: 0vh 0vw 0vh 0vw;
-    background-color: rgb(17, 54, 57);
+    /* background-color: rgb(17, 54, 57); */
     border-bottom: 0.2vh solid white;
   }
 
@@ -87,6 +87,91 @@ body {
     padding: 0vh 3vw 0vh 3vw;
     color: white;
   }
+
+  .beliefs {
+    display: none;
+  }
+
+  .scriptures {
+    display: none;
+  }
+
+  .god {
+    display: none;
+  }
+
+  .father {
+    display: none;
+  }
+
+  .son {
+    display: none;
+  }
+
+  .spirit {
+    display: none;
+  }
+
+  .man {
+    display: none;
+  }
+
+  .salvation {
+    display: none;
+  }
+
+  .grace {
+    display: none;
+  }
+
+  .church {
+    display: none;
+  }
+
+  .baptism {
+    display: none;
+  }
+
+  .supper {
+    display: none;
+  }
+
+  .evangelism {
+    display: none;
+  }
+
+  .sunday {
+    display: none;
+  }
+
+  .last {
+    display: none;
+  }
+
+  .education {
+    display: none;
+  }
+
+  .stewardship {
+    display: none;
+  }
+
+  .cooperation {
+    display: none;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .liberty {
+    display: none;
+  }
+
+  .family {
+    display: none;
+  }
+
 
   footer {
     display: flex;
