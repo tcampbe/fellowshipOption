@@ -129,11 +129,12 @@ footer {
 footer iframe {
   padding: 15vh 0vw 5vh 0vw;
   width:55vw;
-  height:80vh;
+  height:60vh;
   border:0;
 }
 
 footer img {
+  width: 145%;
   margin: -40vh 0vw 0vh 0vw;
 }
 

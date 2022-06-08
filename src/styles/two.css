@@ -109,7 +109,7 @@ body {
   }
   
   .space {
-    padding: 45vh 0vw 0vh 0vw;
+    padding: 5vh 0vw 0vh 0vw;
     /* border-style: solid; */
     border-width: 3vh 15vw 2vh 15vw;
     background-color: rgba(17, 54, 57, 0.747);
@@ -128,13 +128,13 @@ body {
   
   footer iframe {
     padding: 15vh 0vw 5vh 0vw;
-    width:55vw;
-    height:80vh;
+    width:45vw;
+    height:50vh;
     border:0;
   }
   
   footer img {
-    width: 37vw;
+    width: 47vw;
     margin: -40vh 0vw 0vh 0vw;
   }
   
