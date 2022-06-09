@@ -1,0 +1,128 @@
+
+
+
+
+
+/* background: linear-gradient(95deg, rgb(36, 37, 70), rgb(114,54,137), rgb(129,23,99), rgb(152,31,65), rgb(166,26,39), rgb(247,234,93)); */
+
+body {
+  background: url(../images/img_fellowLogo.JPG);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-position: 1vw -25vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.topNav {
+  font-size: 1.5vw;
+  padding: 2vh 0vw 0vh 0vw;
+  background-color: rgba(247, 234, 93, 0.85);
+  height: 6vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.topNav a {
+  background-color: rgba(129, 23, 99, 0.75);
+  margin: 0vh 6vw 1vh 1vw;
+  padding: 1vh 1vw 0vh 1vw;
+  color: rgba(247, 234, 93);
+  border-radius: 10%;
+}
+
+.h1 {
+  margin-top: -3vh;
+  padding: 2vh 0vw 2vh 4.5vw;
+  font-size: 3.7vw;
+  font-weight: 100;
+  letter-spacing: 0.01vw;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgba(129, 23, 99, 0.85);
+  color: white;
+  border-top: 0.1vh solid black;
+}
+
+.rotate {
+  font-size: 1.5vw;
+  transform: rotate(-90deg);
+}
+
+.grow {
+  margin: 0vh 0vw 0vh -2vw;
+}
+
+.normal {
+  font-size: 2.5vw;
+  padding: 1.5vh 0vw 0vh 0vw;
+}
+
+.staff {
+  background: linear-gradient(rgba(247, 234, 93, 0.85), rgba(129, 23, 99, 0.85), rgba(36, 37, 70, 0.85));
+  padding: 2vh 3vw 25vh 3vw;
+  margin: -2.5vh 0vw 0vh 0vw;
+  color: rgb(36, 37, 70);
+}
+
+.welcome {
+    margin: -2vh 0vw;
+    font-size: 2.2vw;
+  }
+
+.staff h2 {
+    background-color: rgba(152, 31, 65, 0.55);
+    height: 5vh;
+    font-size: 1.5vw;
+    font-weight: 200;
+    letter-spacing: 0.01vw;
+    color: rgba(36, 37, 70);
+    margin: 10vh 60vw 1vh 0vw;
+}
+  
+.staff p {
+    color: white;
+}
+
+.welcome p {
+    font-weight: 100;
+    color: rgb(114, 54, 137);
+}
+
+footer {
+  background-color: rgba(36, 37, 70, 0.85);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5vh 3vw 0vh 3vw;
+  color: white;
+}
+
+footer iframe {
+  padding: 5vh 0vw 5vh 0vw;
+  width: 55vw;
+  height: 30vh;
+  border: 0;
+}
+
+.bottomNav {
+  background-color: rgba(36, 37, 70);
+  font-size: 1.5vw;
+  padding: 0vh 0vw 0vh 0vw;
+  height: 6vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.bottomNav a {
+  /* margin: -5vh 0vw -2vh 0vw; */
+  padding: 1vh 9vw 1vh 9vw;
+  color: rgb(62, 238, 238);
+  border: 0.05vw solid rgb(62, 238, 238);
+}
+
+

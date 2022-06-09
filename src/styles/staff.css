@@ -15,7 +15,7 @@ body {
                   Geneva, Verdana, sans-serif;
   }
   
-  nav {
+  .topNav {
     font-size: 1.5vw;
     padding: 2vh 0vw 0vh 0vw;
     background-color: rgb(247,234,93);
@@ -25,7 +25,7 @@ body {
     justify-content: flex-end;
   }
   
-  nav a {
+  .topNav a {
     padding: 0vh 9vw 0vh 1vw;
     color: rgb(166,26,39);
   }
@@ -103,4 +103,21 @@ body {
     border:0;
   }
 
+  .bottomNav {
+    background-color: rgb(36, 37, 70);
+    font-size: 1.5vw;
+    padding: 0vh 0vw 0vh 0vw;
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .bottomNav a {
+    /* margin: -5vh 0vw -2vh 0vw; */
+    padding: 1vh 9vw 1vh 9vw;
+    color: rgb(62, 238, 238);
+    border: 0.05vw solid rgb(62, 238, 238);
+  }
+  
 
