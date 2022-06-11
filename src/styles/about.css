@@ -16,11 +16,12 @@ body {
   .topNav {
     background-color: rgb(36, 37, 70);
     font-size: 1.5vw;
-    padding: 2vh 0vw 0vh 0vw;
+    padding: 2vh 0vw 0vh 45vw;
     height: 6vh;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
+    position: fixed;
   }
   
   .topNav a {
