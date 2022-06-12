@@ -2,54 +2,50 @@
 
 
 
+/* https://biblepic.com/ */
+
+
 
 
 body {
-  background-image: url(../images/img_acts242.jpg);
-  background-repeat: no-repeat;
-  background-position: 15vw 8vh;
-  background-attachment: fixed;
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-}
-
-.overlay {
-  background-color: rgba(27, 28, 57, 0.85);
 }
 
 .topNav {
-  right: 0vw;
-  position: fixed;
   font-size: 1.5vw;
-  padding: 10vh 0vw 0vh 0vw;
+  margin: 0vh 0vw 0vh 45vw;
+  padding: 2vh 0vw 0vh 0vw;
+  background-color: rgb(6, 82, 86);
   height: 6vh;
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
+  position: fixed;
 }
 
 .topNav a {
-  color: white;
-  margin: 1vh 4vw 2vh 1vw;
-  padding: 1vh 1vw 0vh 1vw;
+  padding: 0vh 9vw 0vh 1vw;
+  color: rgb(62, 238, 238);
 }
 
 .h1 {
-  margin: -6vh 0vw 0vh 0vw;
-  padding: 10vh 0vw 0vh 2.5vw;
+  margin-top: -3vh;
+  padding: 9vh 0vw 3vh 4.5vw;
   font-size: 3.7vw;
   font-weight: 100;
   letter-spacing: 0.01vw;
   display: flex;
   flex-wrap: nowrap;
+  background-color: rgb(6, 82, 86);
+  color: white;
+  border-top: 0.1vh solid black;
 }
 
 .rotate {
   font-size: 1.5vw;
   transform: rotate(-90deg);
-  margin: 2vh 1vw 9vh 0vw;
 }
 
 .grow {
@@ -58,25 +54,34 @@ body {
 
 .normal {
   font-size: 2.5vw;
-  padding: 2vh 0vw 0vh 0vw;
-}
-
-.img {
-  top: 20vh;
-  right: 1vw;
-  position: fixed;
-  width: 23%;
-  border-radius: 50%;
+  padding: 1.5vh 0vw 0vh 0vw;
 }
 
 .welcome {
-  border-top: 1vh solid black;
-  margin: -10vh 0vw 10vh 0vw;
-  padding: 0vh 0vw 1vh 3vw;
+  margin-top: -3vh;
+  padding: 2vh 0vw 5vh 4vw;
+  background-color: rgb(17, 54, 57);
+  background-repeat: no-repeat;
+  background-position: 6vw 6vh;
   width: 100%;
-  height: 1vh;
+  height: 100%;
+  color: rgb(62, 238, 238);
   font-size: 2.2vw;
   font-weight: 100;
+}
+
+.img {
+  display: block;
+  width: 20%;
+  margin: -15vh 0vw 3vh 60vw;
+  padding: 0vh 5vw 0vh 5vw;
+  opacity: 95%;
+  background: linear-gradient(
+    175deg,
+    rgb(6, 82, 86) 10%,
+    rgb(17, 54, 57) 23%,
+    black 67%
+  );
 }
 
 h2 {
@@ -84,11 +89,18 @@ h2 {
   font-size: 1.5vw;
   font-weight: 200;
   letter-spacing: 0.01vw;
-  margin: 0vh 0vw -2vh 0vw;
+  color: rgb(62, 238, 238);
+  margin: 0vh 0vw -1.5vh 0vw;
 }
 
 .contact {
+  background-color: rgb(36, 37, 70);
+  background-image: url(../images/img_acts242.jpg);
+  background-repeat: no-repeat;
+  background-position: 25vw 50%;
+  background-size: 70vw auto;
   padding: 5vh 3vw 5vh 3vw;
+  color: white;
 }
 
 .contact p {
@@ -96,12 +108,12 @@ h2 {
 }
 
 footer {
-  background-color: rgba(27, 28, 57, 0.9);
-  border-top: 1vh solid black;
+  background-color: rgb(17, 54, 57);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 5vh 3vw 0vh 3vw;
+  color: white;
 }
 
 footer iframe {
@@ -112,14 +124,13 @@ footer iframe {
 }
 
 .bottomNav {
-  background-color: rgba(255, 255, 255, 0.85);
-  font-size: 5vw;
-  padding: 2vh 0vw 2vh 15vw;
+  background-color: white;
+  padding: 0vh 0vw 0vh 20vw;
+  font-size: 4vw;
 }
 
 .bottomNav a {
-  color: black;
-  padding: 1vh 8vw 1vh 5vw;
-  border: 0.5vw solid black;
+  padding: 1vh 5vw 1vh 5vw;
 }
+
 

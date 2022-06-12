@@ -81,18 +81,9 @@ body {
   }
   
   .welcome {
-    background: linear-gradient(
-      45deg,
-      rgb(129, 23, 99),
-      rgb(114, 54, 137),
-      rgb(36, 37, 70)
-    );
-    margin: -2vh 3vw;
-    background-repeat: no-repeat;
-    background-position: 6vw 6vh;
+    padding: 15vh 0vw 0vh 3vw;
     color: rgb(62, 238, 238);
     font-size: 2.2vw;
-    font-weight: 100;
   }
   
   h2 {
@@ -102,17 +93,19 @@ body {
     letter-spacing: 0.01vw;
     color: rgb(62, 238, 238);
     margin: 0vh 0vw 0vh 0vw;
-    background-color: rgb(36, 37, 70);
-    border-bottom: 0.2vh solid white;
   }
   
   .join {
-    padding: 20vh 3vw 5vh 3vw;
+    padding: 7vh 3vw 7vh 3vw;
     color: white;
+  }
+
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.10);
   }
   
   footer {
-    background-color: rgb(36, 37, 70);
+    /* background-color: rgb(36, 37, 70); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -126,6 +119,10 @@ body {
     height: 30vh;
     border: 0;
   }
+
+  footer h2 {
+    border-bottom: 0.1vh solid white;
+  }
   
   .bottomNav {
     background-color: rgb(36, 37, 70);
@@ -138,7 +135,6 @@ body {
   }
   
   .bottomNav a {
-    /* margin: -5vh 0vw -2vh 0vw; */
     padding: 1vh 9vw 1vh 9vw;
     color: rgb(62, 238, 238);
     border: 0.05vw solid rgb(62, 238, 238);
