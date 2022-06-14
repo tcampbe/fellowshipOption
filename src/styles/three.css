@@ -1,25 +1,40 @@
 
-    /* background: linear-gradient(95deg, rgb(36, 37, 70), rgb(114,54,137), rgb(129,23,99), rgb(152,31,65), rgb(166,26,39), rgb(247,234,93)); */
+
+
 
 
 
 
 
 body {
-    background: url(../images/img_fellowLogo.JPG);
-    background-repeat: no-repeat;
-    background-size: 80vw auto;
-    background-position: 30vw 6vh;
+    background-image: url(../images/img_fellowLogo.JPG);
+    
+        background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
     margin: 0;
+    width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 
                 'Lucida Grande', 'Lucida Sans Unicode', 
                   Geneva, Verdana, sans-serif;
-}
+  }
+  
+  .overlay {
+    background: linear-gradient(
+        155deg,
+        rgb(36, 37, 70),
+        rgb(36, 37, 70),
+        rgba(152, 31, 65, 0.85),
+        rgba(247, 234, 93, 0.65)
+      );
+  }
   
   .topNav {
+    margin: 0vh 0vw 0vh 50vw;
     font-size: 1.5vw;
-    padding: 2vh 0vw 0vh 45vw;
-    background-color: rgb(247,234,93);
+    padding: 2vh 0vw 0vh 0.5vw;
     height: 6vh;
     display: flex;
     flex-wrap: nowrap;
@@ -28,19 +43,18 @@ body {
   }
   
   .topNav a {
-    padding: 0vh 5vw 0vh 1vw;
-    color: rgb(166,26,39);
+    padding: 0vh 4vw 0vh 0vw;
+    color: rgb(62, 238, 238);
   }
   
   .h1 {
     margin-top: -3vh;
-    padding: 8vh 0vw 3vh 4.5vw;
+    padding: 3vh 0vw 3vh 4.5vw;
     font-size: 3.7vw;
     font-weight: 100;
     letter-spacing: 0.01vw;
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgb(129,23,99);
     color: white;
     border-top: 0.1vh solid black;
   }
@@ -60,12 +74,12 @@ body {
   }
   
   .welcome {
-    margin: -2vh 0vw -10vh 3vw;
-    background-repeat: no-repeat;
-    background-position: 6vw 6vh;
-    color: rgb(114,54,137);
+    height: 10vh;
+    margin: -3vh 0vw 0vh 0vw;
+    color: rgb(62, 238, 238);
     font-size: 2.2vw;
     font-weight: 100;
+    padding: 1vh 0vw 0vh 3vw;
   }
   
   h2 {
@@ -73,39 +87,36 @@ body {
     font-size: 1.5vw;
     font-weight: 200;
     letter-spacing: 0.01vw;
-    color: rgb(152,31,65);
-    margin: 10vh 0vw -2.8vh 0vw;
+    color: rgb(62, 238, 238);
+    margin: 0vh 0vw 0vh 0vw;
+    border-bottom: 0.2vh solid white;
   }
-
-  .staff {
-    padding: 0vh 3vw 3vh 3vw;
-    color: rgb(36, 37, 70);
+  
+  .hours {
+    padding: 4vh 3vw 10vh 3vw;
+    color: white;
   }
-
-  .staff p {
-    margin: 0vh 0vw -2vh 0vw;
-  }
-
+  
   footer {
-    background-color: rgb(36, 37, 70);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 5vh 3vw 0vh 3vw;
+    padding: 0vh 0vw 0vh 3vw;
     color: white;
   }
   
   footer iframe {
-    padding: 5vh 0vw 5vh 0vw;
+    margin: -15vh 0vw 0vh 40vw;
     width:55vw;
-    height:30vh;
+    height:60vh;
     border:0;
+  }
+  
+  footer .building {
+    width: 40%;
+    margin: -35vh 10vw 0vh 0vw;
   }
 
   .bottomNav {
-    background-color: rgb(36, 37, 70);
-    font-size: 1.5vw;
-    padding: 0vh 0vw 0vh 0vw;
+    font-size: 3vw;
+    padding: 2vh 0vw 3vh 0vw;
     height: 6vh;
     display: flex;
     flex-wrap: nowrap;
@@ -113,9 +124,10 @@ body {
   }
   
   .bottomNav a {
-    padding: 1vh 9vw 1vh 9vw;
+    margin: -5vh 4vw -2vh 4vw;
+    padding: 2vh 4vw 1vh 4vw;
     color: rgb(62, 238, 238);
-    border: 0.05vw solid rgb(62, 238, 238);
+    border: 0.5vw solid rgb(62, 238, 238);
   }
-  
 
+  
