@@ -79,6 +79,11 @@ body {
   padding: 5vh 3vw 5vh 3vw;
 }
 
+.welcome {
+  margin: 0vh 0vw -15vh 0vw;
+  font-size: 2.2vw;
+}
+
 .staff h2 {
   height: 5vh;
   font-size: 1.5vw;
@@ -86,13 +91,6 @@ body {
   letter-spacing: 0.01vw;
   margin: 20vh 0vw -2.8vh 0vw;
 }
-
-.welcome {
-  margin: 0vh 0vw -15vh 0vw;
-  font-size: 2.2vw;
-}
-
-
 
 .staff img {
   width: 10vw;
