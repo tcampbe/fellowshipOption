@@ -1,9 +1,23 @@
+
+
+
+
+
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgba(36, 37, 70, 0.9);
+  background-image: url(../images/img_building.JPG);
+  background-repeat: no-repeat;
+  background-position: 0vw 10vh;
+  background-size: 100vw auto;
+}
+
+.overlay {
+  background-color: rgba(36, 37, 70, 0.8);
 }
 
 .topNav {
@@ -173,4 +187,7 @@ footer {
     height: 60vh;
     border: 0;
   }
+  
+
+
   

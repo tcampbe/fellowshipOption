@@ -5,8 +5,6 @@
 
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,9 +20,8 @@
     />
     <meta name="author" content="Troy Campbell" />
     <link rel="stylesheet" href="styles/staffFour.css" />
-    <title>The Fellowship Main</title>
+    <title>Carousel</title>
   </head>
-
   <body>
     <div class="overlay">
       <header>
@@ -32,7 +29,7 @@
           <a href="Four.html">Home</a>
           <a href="joinFour.html">Membership</a>
           <a href="aboutFour.html">About</a>
-          <a href="staffFour.html">Staff</a>
+          <a href="staffFour.html">Personnel</a>
           <a href="contactFour.html">Contact</a>
         </nav>
 
@@ -46,38 +43,50 @@
         </h1>
       </header>
 
-      <div class="staff">
-        <div class="welcome">
-          <p>STAFF</p>
-          <br />
+      <!-- Slideshow container -->
+      <div class="slideshow-container fade">
+        <!-- Full images with numbers and message info -->
+        <div class="containers">
+          <div class="messageinfo">Dan Chrestman</div>
+          <img src="images/img_pastor.JPG" style="width: 100%" />
+          <div class="info">
+            Senior Pastor
+            <br />
+            <br />
+            Dan Chrestman has been the Pastor for 15 years.
+          </div>
         </div>
 
-        <h2>DAN CHRESTMAN</h2>
-        <img src="images/img_pastor.JPG" alt="Pastor Dan Chrestman" />
-        <p>
-          Senior Pastor
-          <br />
-          Dan Chrestman has been the Pastor for 15 years.
-        </p>
+        <div class="containers">
+          <div class="messageinfo">Carl Brown</div>
+          <img src="images/img_music_director.JPG" style="width: 100%" />
+          <div class="info">
+            Head Administrator and Music Director
+            <br />
+            <br />
+            Carl Brown has faithfully served the church for 20 years.
+          </div>
+        </div>
 
-        <h2>CARL BROWN</h2>
-        <img
-          src="images/img_music_director.JPG"
-          alt="Music Director Carl Brown"
-        />
-        <p>
-          Head Administrator and Music Director
-          <br />
-          Carl Brown has faithfully served the church for 20 years.
-        </p>
+        <div class="containers">
+          <div class="messageinfo">Troy Campbell</div>
+          <img
+            src="https://www.gravatar.com/avatar/b0c442a80997850fb98a86d4753b8410"
+            style="width: 100%"
+          />
+          <div class="info">
+            Webmaster
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
 
-        <h2>Webmaster</h2>
-        <img
-          src="https://www.gravatar.com/avatar/b0c442a80997850fb98a86d4753b8410"
-          alt="Webmaster Troy Campbell"
-        />
-        <p>Troy Campbell</p>
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
       </div>
+      <br />
 
       <footer>
         <div>
@@ -117,9 +126,11 @@
           <a href="staffThree.html">5</a>
         </nav>
       </div>
+  
     </div>
 
     <script src="script/staffFour.js"></script>
+
   </body>
 </html>
 
