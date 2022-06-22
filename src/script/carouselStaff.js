@@ -5,6 +5,7 @@
 
 
 
+
 // click to change carousel
 
 var slidePosition = 1;
@@ -22,7 +23,7 @@ function currentSlide(n) {
 
 function SlideShow(n) {
   var i;
-  var slides = document.getElementsByClassName("Containers");
+  var slides = document.getElementsByClassName("containers");
   var circles = document.getElementsByClassName("dots");
   if (n > slides.length) {slidePosition = 1}
   if (n < 1) {slidePosition = slides.length}
@@ -47,7 +48,7 @@ function SlideShow(n) {
 
 // function SlideShow() {
 //   var i;
-//   var slides = document.getElementsByClassName("Containers");
+//   var slides = document.getElementsByClassName("containers");
 //   for (i = 0; i < slides.length; i++) {
 //     slides[i].style.display = "none";
 //   }
