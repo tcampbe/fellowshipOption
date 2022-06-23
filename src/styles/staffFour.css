@@ -117,8 +117,8 @@ header {
   width: 15vw;
 }
 
-/* forward & Back buttons */
-.Back,
+/* forward & back buttons */
+.back,
 .forward {
   cursor: pointer;
   position: absolute;
@@ -139,12 +139,12 @@ header {
   border-radius: 0.5vh 0 0 0.5vw;
 }
 
-.Back {
+.back {
   left: -5vw;
 }
 
 /*when the user hovers,add a black background with some little opacity */
-.Back:hover,
+.back:hover,
 .forward:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }

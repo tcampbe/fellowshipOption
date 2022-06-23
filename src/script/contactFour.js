@@ -2,7 +2,8 @@
 
 
 
-/* https://engineertodeveloper.com/create-a-carousel-with-vanilla-javascript/ */
+
+
 
 
 // click to change carousel
@@ -10,7 +11,7 @@
 var slidePosition = 1;
 SlideShow(slidePosition);
 
-// // forward/back controls
+// // forward/Back controls
 function plusSlides(n) {
   SlideShow(slidePosition += n);
 }
@@ -56,10 +57,6 @@ function SlideShow(n) {
 //   slides[slidePosition-1].style.display = "block";
 //   setTimeout(SlideShow, 8000); // Change image every 8 seconds
 // } 
-
-
-
-
 
 
 

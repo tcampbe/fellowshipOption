@@ -12,14 +12,14 @@
 }
 
 body {
-  background-image: url(../images/img_building.JPG);
+  background-image: url(../images/img_acts242.jpg);
   background-repeat: no-repeat;
-  background-position: 0vw 10vh;
-  background-size: 100vw auto;
+  background-position: -2vw 8vh;
+  background-size: 70vw auto;
 }
 
 .overlay {
-  background-color: rgba(36, 37, 70, 0.8);
+  background-color: rgba(36, 37, 70, 0.75);
 }
 
 header {
@@ -74,11 +74,21 @@ header {
   width: 5vw;
 }
 
+.welcome {
+  margin-top: 8vh;
+  padding: 3vh 0vw 0vh 71vw;
+  width: 100%;
+  height: 100%;
+  color: rgb(44,34,86);
+  font-size: 5vw;
+  font-weight: 100;
+}
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 50vw;
+  max-width: 23vw;
   position: relative;
-  margin: 12vh 25vw 9vh 25vw;
+  margin: 0vh 0vw 9vh 55vw;
   object-fit: cover;
 }
 
@@ -89,15 +99,16 @@ header {
 
 /* Staff names */
 .messageinfo {
+  width: 18vw;
   color: #f2f2f3;
   font-size: 2vw;
-  margin: 0vh 0vw 0vh 18vw;
+  margin: 0vh 0vw 0vh 17vw;
   padding: 1vh 1vw 1vh 1vw;
   position: absolute;
 }
 
 .slideshow-container img {
-  width: 15vw;
+  width: 18vw;
   margin: 5vh 0vw 14vh 18vw;
 }
 
@@ -110,7 +121,7 @@ header {
   padding: 1vh 1vw;
   position: absolute;
   bottom: 1vh;
-  width: 15vw;
+  width: 18vw;
 }
 
 /* forward & Back buttons */
@@ -120,7 +131,7 @@ header {
   position: absolute;
   top: 18%;
   width: auto;
-  margin-top: -13px;
+  margin: 0vh 0vw 0vh 20vw;
   color: grey;
   font-weight: bold;
   font-size: 10vw;
@@ -131,12 +142,12 @@ header {
 
 /* Place the "forward button" to the right */
 .forward {
-  right: -5vw;
+  right: -18vw;
   border-radius: 0.5vh 0 0 0.5vw;
 }
 
 .Back {
-  left: -5vw;
+  left: -7.2vw;
 }
 
 /*when the user hovers,add a black background with some little opacity */
@@ -172,24 +183,32 @@ header {
 }
 
 footer {
-    background-color: rgba(36, 37, 70);
+    background-color: rgba(36, 37, 70, 0.7);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 25vh 0vw 0vh 0vw;
     padding: 0vh 3vw 0vh 3vw;
     color: white;
-    font-size: 2.6vh;
+    font-size: 2.4vh;
   }
   
   footer iframe {
-    padding: 5vh 0vw 5vh 0vw;
+    padding: 1vh 0vw 5vh 0vw;
     width: 55vw;
     height: 60vh;
     border: 0;
   }
   
-
+  .bottomNav {
+    padding: 0vh 0vw 0vh 20vw;
+    font-size: 4vw;
+  }
+  
+  .bottomNav a {
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 1vh 5vw 1vh 5vw;
+  }
 
   
   
