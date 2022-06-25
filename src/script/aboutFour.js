@@ -8,6 +8,7 @@
 
 // click to change carousel
 
+
 var slidePosition = 1;
 SlideShow(slidePosition);
 
@@ -84,5 +85,6 @@ function toggle(a, b) {
     showHide.innerHTML = 'Hide';
   }
 }
+
 
 

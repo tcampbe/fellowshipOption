@@ -3,6 +3,9 @@
 
 
 
+
+
+
 function toggle(a, b) {
     // get the text
     var myChange = document.getElementById(a);

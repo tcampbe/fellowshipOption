@@ -1,0 +1,306 @@
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0vh 0vw 0vh 0vw;
+    padding: 0.4vh 0vw 0vh 0vw;
+  }
+  
+  body {
+    background-image: url(../images/img_act242to47.JPG);
+    background-repeat: no-repeat;
+    background-position: 5vw 30vh;
+    background-size: 89vw auto;
+  }
+  
+  .overlay {
+    background-color: rgba(36, 37, 70, 0.25);
+  }
+  
+  header {
+    position: fixed;
+  }
+  
+  .topNav {
+    font-size: 1.5vw;
+    padding: 2vh 0vw 0vh 56vw;
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+  
+  .topNav a {
+    background-color: rgba(36, 37, 70, 0.95);
+    margin: 0vh 1.2vw 1vh 0vw;
+    padding: 1vh 1vw 5vh 1vw;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+  }
+  
+  .h1 {
+    background-color: rgba(240, 248, 255, 0.9);
+    margin: -7vh -1vw 0vh 0vw;
+    padding: 2vh 0vw 2vh 4.5vw;
+    font-size: 3.7vw;
+    color: rgba(36, 37, 70);
+    font-weight: 100;
+    letter-spacing: 0.01vw;
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 0.1vh solid black;
+  }
+  
+  .rotate {
+    font-size: 1.5vw;
+    transform: rotate(-90deg);
+  }
+  
+  .grow {
+    margin: 0vh 0vw 0vh -2vw;
+  }
+  
+  .normal {
+    font-size: 2.5vw;
+    padding: 1.5vh 0vw 0vh 0vw;
+  }
+  
+  .logo {
+    width: 5vw;
+  }
+  
+  .welcome {
+    margin: 13vh 0vw 0vh 1vw;
+  }
+  
+  .welcome p {
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    width: 15vw;
+    padding: 0vh 1vw;
+    color: rgba(36, 37, 70);
+    font-size: 5vw;
+    font-weight: 100;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    margin: -1vh 0vw 100vh 0vw;
+    object-fit: cover;
+  }
+  
+  /* Make the images invisible by default */
+  .containers {
+    display: none;
+  }
+  
+  /* Staff names */
+  .messageinfo {
+    background-color: rgba(36, 37, 70, 0.95);
+    margin: -7vh 0vw 0vh 23vw;
+    padding: 1vw;
+    width: 37vw;
+    color: white;
+    font-size: 2.5vw;
+    border-radius: 15%;
+    text-align: center;
+  }
+  
+  button {
+    margin: -5vh 0vw 0vh 62vw;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+    position: absolute;
+    border-radius: 10%;
+    color: rgba(36, 37, 70);
+  }
+  
+  .info {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: black;
+    font-size: 2vw;
+    position: absolute;
+    margin: 3vh 0vw 0vh 2vw;
+    padding: 1vw;
+    width: 95vw;
+  }
+  
+  /* forward & Back buttons */
+  .Back,
+  .forward {
+    cursor: pointer;
+    position: absolute;
+    /* top: 18%; */
+    width: auto;
+    margin: -13vh 25vw 0vh 18vw;
+    color: grey;
+    font-weight: bold;
+    font-size: 8vw;
+    transition: 0.4s ease;
+    user-select: none;
+  }
+  
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 0vw;
+    border-radius: 0.7vh 0 0 0.7vw;
+  }
+  
+  .Back {
+    left: 0vw;
+    border-radius: 0 0.7vw 0.7vh 0;
+  }
+  
+  /*when the user hovers,add a black background with some little opacity */
+  .Back:hover,
+  .forward:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Faint animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 2;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 2;
+    }
+  }
+  
+  .beliefs {
+    display: none;
+  }
+  
+  .scriptures {
+    display: none;
+  }
+  
+  .god {
+    display: none;
+  }
+  
+  .father {
+    display: none;
+  }
+  
+  .son {
+    display: none;
+  }
+  
+  .spirit {
+    display: none;
+  }
+  
+  .man {
+    display: none;
+  }
+  
+  .salvation {
+    display: none;
+  }
+  
+  .grace {
+    display: none;
+  }
+  
+  .church {
+    display: none;
+  }
+  
+  .baptism {
+    display: none;
+  }
+  
+  .supper {
+    display: none;
+  }
+  
+  .evangelism {
+    display: none;
+  }
+  
+  .sunday {
+    display: none;
+  }
+  
+  .last {
+    display: none;
+  }
+  
+  .education {
+    display: none;
+  }
+  
+  .stewardship {
+    display: none;
+  }
+  
+  .cooperation {
+    display: none;
+  }
+  
+  .social {
+    display: none;
+  }
+  
+  .liberty {
+    display: none;
+  }
+  
+  .family {
+    display: none;
+  }
+  
+  
+  footer {
+      background-color: rgba(36, 37, 70);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 25vh 0vw 0vh 0vw;
+      padding: 0vh 3vw 0vh 3vw;
+      color: white;
+      font-size: 2.4vh;
+    }
+    
+    footer iframe {
+      padding: 1vh 0vw 5vh 0vw;
+      width: 55vw;
+      height: 60vh;
+      border: 0;
+    }
+    
+    .bottomNav {
+      padding: 0vh 0vw 0vh 20vw;
+      font-size: 4vw;
+    }
+    
+    .bottomNav a {
+      background-color: rgba(255, 255, 255, 0.80);
+      padding: 1vh 5vw 1vh 5vw;
+    }
+  
+    
+  
+    
