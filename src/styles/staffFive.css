@@ -5,6 +5,7 @@
 
 
 
+
 * {
   box-sizing: border-box;
   margin: 0vh 0vw 0vh 0vw;
@@ -116,40 +117,41 @@ header {
 }
 
 footer {
-    background-image: url(../images/img_fellowLogo.JPG);
-    background-repeat: no-repeat;
-    background-size: 50vw auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 18vh 0vw 0vh 0vw;
-    padding: 0vh 1vw 0vh 3vw;
-  }
+  background-image: url(../images/img_fellowLogo.JPG);
+  background-repeat: no-repeat;
+  background-size: 50vw auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 18vh 0vw 0vh 0vw;
+  padding: 0vh 1vw 0vh 3vw;
+}
 
-  footer p {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgba(36, 37, 70);
-    font-size: 2.8vh;
-    font-weight: bolder;
-  }
-  
-  footer iframe {
-    margin: -1vh 0vw 0vh 0vw;
-    width: 46vw;
-    height: 74vh;
-    border: 0;
-  }
-  
-  .bottomNav {
-    padding: 0vh 0vw 0vh 20vw;
-    font-size: 4vw;
-  }
-  
-  .bottomNav a {
-    background-color: rgba(255, 255, 255, 0.80);
-    padding: 1vh 5vw 1vh 5vw;
-  }
+footer p {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(36, 37, 70);
+  font-size: 2.8vh;
+  font-weight: bolder;
+}
 
-  
-  
+footer iframe {
+  margin: -1vh 0vw 0vh 0vw;
+  width: 46vw;
+  height: 74vh;
+  border: 0;
+}
+
+.bottomNav {
+  padding: 0vh 0vw 0vh 20vw;
+  font-size: 4vw;
+}
+
+.bottomNav a {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1vh 5vw 1vh 5vw;
+}
+
+
+
+
 
