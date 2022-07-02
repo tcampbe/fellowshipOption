@@ -70,7 +70,7 @@ header {
 }
 
 .welcome {
-  margin: 13vh 0vw 1vh 3vw;
+  margin: 12vh 0vw 1vh 3vw;
 }
 
 .welcome p {
@@ -82,8 +82,8 @@ header {
   font-weight: 100;
 }
 
-.staff {
-  padding: 0vh 3vw 0vh 2vw;
+.schedule {
+  padding: 0vh 2vw 0vh 2vw;
   color: rgb(36, 37, 70);
   font-size: 2vw;
   display: grid;
@@ -93,7 +93,7 @@ header {
 
 .item {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 0vh 0vw 1vh 0vw;
+  padding: 0vh 1vw 1vh 1vw;
   border: 0.5vw solid rgba(0, 0, 0);
   text-align: center;
 }
@@ -108,10 +108,10 @@ header {
 
 .item p {
   border: 0.4vw solid rgba(247, 234, 93, 0.7);
-  border-radius: 10%;
+  border-radius: 1%;
   background-color: rgb(36, 37, 70);
   color: rgb(62, 238, 238);
-  padding: 1vh 0vw 1vh 0vw;
+  padding: 1vh 1vw 1vh 1vw;
   font-size: 1.8vw;
 }
 
@@ -122,7 +122,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 18vh 0vw 0vh 0vw;
+    margin: 12vh 0vw 0vh 1vw;
     padding: 0vh 1vw 0vh 3vw;
   }
 
