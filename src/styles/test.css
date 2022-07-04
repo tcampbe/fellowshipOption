@@ -9,17 +9,24 @@
 
 body {
   background-color: rgba(36, 37, 70);
-  width: 99%;
-  height: 100vh;
 }
 
 header {
+  background-color: rgba(240, 248, 255, 0.9);
+  margin: -18vh 0vw 0vh -3vw;
+  padding: 0vh 0vw 0vh 4vw;
   width: 101%;
-  top: 0vh;
   position: fixed;
 }
 
+.logo {
+  margin: 1vh 0vw -6vh 40vw;
+  width: 6vw;
+  border-radius: 100%;
+}
+
 .topNav {
+  margin: -8vh 5vw 0vh 0vw;
   font-size: 1.5vw;
   height: 6vh;
   display: flex;
@@ -29,17 +36,14 @@ header {
 
 .topNav a {
   background-color: rgba(36, 37, 70, 0.95);
-  margin: 4vh 1.2vw 0vh 0vw;
-  padding: 1vh 1vw 5vh 1vw;
+  margin: 5vh 0.5vw 0vh 0.5vw;
+  padding: 2vh 1vw 5vh 1vw;
   color: white;
   font-weight: 900;
   border-radius: 5%;
 }
 
 .h1 {
-  background-color: rgba(240, 248, 255, 0.9);
-  /* margin: -7vh -1vw 0vh 0vw;
-  padding: 2vh 0vw 2vh 4.5vw; */
   font-size: 3.7vw;
   color: rgba(36, 37, 70);
   font-weight: 100;
@@ -63,26 +67,22 @@ header {
   padding: 1.5vh 0vw 0vh 0vw;
 }
 
-.grace {
-  width: 99%;
-  height: 100vh;
-}
-
-.overlay {
-  width: 99%;
-}
-
 .welcome {
-    font-size: 5vw;
+  background-color: gold;
+  margin: 18vh 40vw -10vh 30vw;
+  padding: 0vh 0vw 0vh 0vw;
+  font-size: 5vw;
+  text-align: center;
 }
 
 .hours {
-  margin: 0vh 0vw -35vh 0vw;
+  margin: 0vh 0vw -40vh 0vw;
   color: white;
+  font-size: 1.3vw;
 }
 
 .sinner {
-  margin: 0vh 0vw -20vh -2vw;
+  margin: 0vh 0vw -17vh -2vw;
   width: 10vw;
   transform: rotate(20deg);
 }
@@ -105,6 +105,47 @@ header {
   transform: rotate(-3deg);
 }
 
+.directions {
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: 33vh -1vw 0vh -1vw;
+  padding: 1vh 1vw;
+  font-size: 1.5vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.address {
+  margin: 0vh 1vw 0vh 0vw;
+}
+
+.map iframe{
+  margin: 0vh 1vw 0vh 0vw;
+  width: 30vw;
+  height: 30vh;
+}
+
+.building {
+  margin: 3vh -1vw 0vh 0vw;
+  width: 31vw;
+}
+
+.bottomNav {
+  margin: 10vh 0vw 0vh 0vw;
+  font-size: 1.5vw;
+  height: 6vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.bottomNav a {
+  margin: 5vh 0.5vw 0vh 0.5vw;
+  padding: 2vh 1vw 5vh 1vw;
+  color: white;
+  font-weight: 900;
+  border-radius: 5%;
+}
 
 
 

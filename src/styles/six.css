@@ -1,0 +1,154 @@
+
+
+
+
+
+
+
+
+
+body {
+    background-color: rgba(36, 37, 70);
+  }
+  
+  header {
+    background-color: rgba(240, 248, 255, 0.9);
+    margin: -18vh 0vw 0vh -3vw;
+    padding: 0vh 0vw 0vh 4vw;
+    width: 101%;
+    position: fixed;
+  }
+  
+  .logo {
+    margin: 1vh 0vw -6vh 38vw;
+    width: 6vw;
+    border-radius: 100%;
+  }
+  
+  .topNav {
+    margin: -8vh 3vw 0vh 0vw;
+    font-size: 1.5vw;
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+  
+  .topNav a {
+    background-color: rgba(36, 37, 70, 0.95);
+    margin: 5vh 0.5vw 0vh 0.5vw;
+    padding: 2vh 1vw 5vh 1vw;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+  }
+  
+  .h1 {
+    font-size: 3.7vw;
+    color: rgba(36, 37, 70);
+    font-weight: 100;
+    letter-spacing: 0.01vw;
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 0.1vh solid black;
+  }
+  
+  .rotate {
+    font-size: 1.5vw;
+    transform: rotate(-90deg);
+  }
+  
+  .grow {
+    margin: 0vh 0vw 0vh -2vw;
+  }
+  
+  .normal {
+    font-size: 2.5vw;
+    padding: 1.5vh 0vw 0vh 0vw;
+  }
+  
+  .welcome {
+    background-color: gold;
+    margin: 18vh 40vw -10vh 30vw;
+    padding: 0vh 0vw 0vh 0vw;
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+  .hours {
+    margin: 0vh 0vw -40vh 0vw;
+    color: white;
+    font-size: 1.3vw;
+  }
+  
+  .sinner {
+    margin: 0vh 0vw -17vh 6vw;
+    width: 10vw;
+    transform: rotate(20deg);
+  }
+  
+  .word {
+    margin: 0vh 0vw -25vh -2vw;
+    width: 25vw;
+    transform: rotate(-1deg);
+  }
+  
+  .cross {
+    margin: 0vh 0vw -22vh -2vw;
+    width: 30vw;
+    transform: rotate(-10deg);
+  }
+  
+  .fellowship {
+    margin: 0vh 0vw 0vh -16vw;
+    width: 45vw;
+    transform: rotate(-3deg);
+  }
+  
+  .directions {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 33vh -1vw 0vh -1vw;
+    padding: 1vh 1vw;
+    font-size: 1.5vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .address {
+    margin: 0vh 1vw 0vh 0vw;
+  }
+  
+  .map iframe{
+    margin: 0vh 1vw 0vh 0vw;
+    width: 30vw;
+    height: 30vh;
+  }
+  
+  .building {
+    margin: 3vh -1vw 0vh 0vw;
+    width: 31vw;
+  }
+  
+  .bottomNav {
+    margin: 10vh 0vw 30vh 0vw;
+    font-size: 1.5vw;
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .bottomNav a {
+    margin: 5vh 0.5vw 0vh 0.5vw;
+    padding: 2vh 1vw 5vh 1vw;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+  }
+  
+  
+  
+
+  
+  
