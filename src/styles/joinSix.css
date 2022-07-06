@@ -1,0 +1,156 @@
+
+
+
+
+
+
+
+
+
+body {
+    padding: 7vh 0vw 0vh 0vw;
+    background-color: rgba(36, 37, 70);
+  }
+  
+  header {
+    background-color: rgba(240, 248, 255, 0.9);
+    margin: -8vh 0vw 0vh -3vw;
+    padding: 0vh 0vw 0vh 4vw;
+    width: 101%;
+    position: fixed;
+  }
+  
+  .logo {
+    margin: 0vh 0vw -7vh 36vw;
+    width: 6vw;
+    border-radius: 100%;
+  }
+  
+  .topNav {
+    margin: -6vh 5vw 0vh 0vw;
+    font-size: 1.5vw;
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+  
+  .topNav a {
+    background-color: rgba(36, 37, 70, 0.95);
+    margin: 5vh 0.5vw 0vh 0.5vw;
+    padding: 2vh 1vw 5vh 1vw;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+  }
+  
+  .h1 {
+    margin: 0vh 0vw -3vh 0vw;
+    font-size: 3.7vw;
+    color: rgba(36, 37, 70);
+    font-weight: 100;
+    letter-spacing: 0.01vw;
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 0.1vh solid black;
+  }
+  
+  .rotate {
+    font-size: 1.5vw;
+    transform: rotate(-90deg);
+  }
+  
+  .grow {
+    margin: 0vh 0vw 0vh -2vw;
+  }
+  
+  .normal {
+    font-size: 2.5vw;
+    padding: 1.5vh 0vw 1vh 0vw;
+  }
+  
+  .welcome {
+    background-color: gold;
+    margin: -3vh 40vw 0vh 30vw;
+    padding: 0vh 0vw 0vh 0vw;
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+  .join {
+    margin: -10vh 3vw -40vh 2vw;
+    color: white;
+    font-size: 1.6vw;
+  }
+  
+  .lamb {
+    margin: 45vh 0vw 4vh 10vw;
+    width: 20vw;
+    transform: rotate(20deg);
+  }
+  
+  .bread {
+    margin: 0vh 0vw -3vh -3vw;
+    width: 20vw;
+    transform: rotate(-1deg);
+  }
+  
+  .church {
+    margin: 0vh 0vw -2vh -4vw;
+    width: 30vw;
+    transform: rotate(-10deg);
+  }
+  
+  .fellowshipLogo {
+    margin: 0vh 0vw 0vh -5vw;
+    width: 20vw;
+    transform: rotate(13deg);
+    border-radius: 100%;
+  }
+  
+  .directions {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 50vh -1vw 0vh -1vw;
+    padding: 1vh 1vw;
+    font-size: 1.5vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .address {
+    margin: 0vh 1vw 0vh 0vw;
+  }
+  
+  .map iframe{
+    margin: 0vh 1vw 0vh 0vw;
+    width: 30vw;
+    height: 30vh;
+  }
+  
+  .building {
+    margin: 3vh -1vw 0vh 0vw;
+    width: 31vw;
+  }
+  
+  .bottomNav {
+    margin: 10vh 0vw 0vh 0vw;
+    font-size: 1.5vw;
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .bottomNav a {
+    margin: 5vh 0.5vw 0vh 0.5vw;
+    padding: 2vh 1vw 5vh 1vw;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+  }
+  
+  
+  
+  
+  
