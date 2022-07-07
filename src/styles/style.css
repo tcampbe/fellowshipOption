@@ -131,7 +131,8 @@ footer img {
 }
 
 .bottomNav a {
-  padding: 1vh 9vw 1vh 9vw;
+  margin: 1vh 1vw 1vh 1vw;
+  padding: 1vh 4vw 1vh 4vw;
   color: rgb(62, 238, 238);
   border: 0.05vw solid rgb(62, 238, 238);
 }

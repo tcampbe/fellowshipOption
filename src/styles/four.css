@@ -21,7 +21,7 @@
   
   .topNav {
     font-size: 1.5vw;
-    padding: 2vh 0vw 0vh 56vw;
+    padding: 2vh 0vw 0vh 47vw;
     height: 6vh;
     display: flex;
     flex-wrap: nowrap;
@@ -31,7 +31,7 @@
   
   .topNav a {
     background-color: rgba(36, 37, 70, 0.9);
-    margin: 0vh 1.2vw 1vh 0vw;
+    margin: 0vh 1vw 1vh 0vw;
     padding: 1vh 1vw 5vh 1vw;
     color: white;
     font-weight: 900;
@@ -190,8 +190,9 @@
     }
     
     .bottomNav {
-      padding: 0vh 0vw 0vh 20vw;
+      padding: 0vh 0vw 0vh 0vw;
       font-size: 4vw;
+      text-align: center;
     }
     
     .bottomNav a {
