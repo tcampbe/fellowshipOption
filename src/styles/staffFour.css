@@ -33,7 +33,7 @@ header {
 
 .topNav {
   font-size: 1.5vw;
-  padding: 2vh 0vw 0vh 56vw;
+  padding: 2vh 0vw 0vh 47vw;
   height: 6vh;
   display: flex;
   flex-wrap: nowrap;
@@ -42,7 +42,7 @@ header {
 
 .topNav a {
   background-color: rgba(0, 0, 0, 0.25);
-  margin: 0vh 1.2vw 1vh 0vw;
+  margin: 0vh 1vw 1vh 0vw;
   padding: 1vh 1vw 5vh 1vw;
   color: white;
   font-weight: 900;
@@ -196,13 +196,13 @@ footer {
 
 .bottomNav {
   height: 6vh;
-  padding: 0vh 0vw 0vh 12vw;
   font-size: 1.5vw;
+  text-align: center;
 }
 
 .bottomNav a {
   background-color: rgba(0, 0, 0, 0.25);
-  margin: 0vh 1.2vw 1vh 8vw;
+  margin: 0vh 1.2vw 1vh 4vw;
   padding: 2vh 3vw 2vh 3vw;
   color: white;
   font-weight: 900;

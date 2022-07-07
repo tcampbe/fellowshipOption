@@ -74,12 +74,16 @@ body {
     font-weight: 200;
     letter-spacing: 0.01vw;
     color: rgb(152,31,65);
-    margin: 10vh 0vw -2.8vh 0vw;
+    margin: 10vh 0vw -2.5vh 0vw;
   }
 
   .staff {
     padding: 0vh 3vw 3vh 3vw;
     color: rgb(36, 37, 70);
+  }
+
+  .staff img {
+    width: 10vw;
   }
 
   .staff p {

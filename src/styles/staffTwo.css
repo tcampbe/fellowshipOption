@@ -82,6 +82,10 @@ body {
     color: rgba(36, 37, 70);
     margin: 10vh 60vw 1vh 0vw;
 }
+
+.staff img {
+  width: 15vw;
+}
   
 .staff p {
     color: white;
