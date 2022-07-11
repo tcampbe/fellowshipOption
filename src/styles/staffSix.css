@@ -78,13 +78,13 @@ header {
   text-align: center;
 }
 
-.join {
-  margin: -10vh 3vw -80vh 3vw;
+.staff {
+  margin: -10vh 3vw -65vh 3vw;
   color: white;
   font-size: 1.6vw;
 }
 
-.join img {
+.staff img {
   width: 15vw;
 }
 

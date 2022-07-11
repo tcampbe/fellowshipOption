@@ -1,0 +1,249 @@
+
+
+
+
+
+
+
+
+
+body {
+    padding: 7vh 0vw 0vh 0vw;
+    background-color: rgba(36, 37, 70);
+  }
+  
+  header {
+    background-color: rgba(240, 248, 255, 0.9);
+    margin: -8vh 0vw 0vh -3vw;
+    padding: 0vh 0vw 0vh 4vw;
+    width: 101%;
+    position: fixed;
+  }
+  
+  .logo {
+    margin: 0vh 0vw -7vh 36vw;
+    width: 6vw;
+    border-radius: 100%;
+  }
+  
+  .topNav {
+    margin: -6vh 5vw 0vh 0vw;
+    font-size: 1.5vw;
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+  
+  .topNav a {
+    background-color: rgba(36, 37, 70, 0.95);
+    margin: 5vh 0.5vw 0vh 0.5vw;
+    padding: 2vh 1vw 5vh 1vw;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+  }
+  
+  .h1 {
+    margin: 0vh 0vw -3vh 0vw;
+    font-size: 3.7vw;
+    color: rgba(36, 37, 70);
+    font-weight: 100;
+    letter-spacing: 0.01vw;
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 0.1vh solid black;
+  }
+  
+  .rotate {
+    font-size: 1.5vw;
+    transform: rotate(-90deg);
+  }
+  
+  .grow {
+    margin: 0vh 0vw 0vh -2vw;
+  }
+  
+  .normal {
+    font-size: 2.5vw;
+    padding: 1.5vh 0vw 1vh 0vw;
+  }
+  
+  .welcome {
+    background-color: gold;
+    margin: -1vh 70vw 0vh 5vw;
+    padding: 0vh 0vw 0vh 0vw;
+    font-size: 3.5vw;
+    text-align: center;
+  }
+  
+  .small {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: -10vh 45vw 11vh 30vw;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+  }
+  
+  .principles {
+    background-image: url(../images/img_bibleTurning.jpg);
+    background-size: 92vw 98vh;
+    background-repeat: no-repeat;
+    margin: -10vh 3vw 10vh 3vw;
+    color: white;
+    font-size: 1.8vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vh 1vw;
+  }
+  
+  .principles p {
+    padding: 1vh 1vw;
+    background-color: rgba(36, 37, 70, 0.9);
+  }
+  
+  .item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0.5vw solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 0vw;
+  }
+  
+  button {
+    background-color: rgba(245, 245, 245);  
+    border: 0.4vw solid rgba(247, 234, 93, 0.3);
+    border-radius: 20%;
+    color: rgba(36, 37, 70);
+    font-size: 2vw;
+  }
+  
+  .beliefs {
+    display: none;
+  }
+  
+  .scriptures {
+    display: none;
+  }
+  
+  .god {
+    display: none;
+  }
+  
+  .father {
+    display: none;
+  }
+  
+  .son {
+    display: none;
+  }
+  
+  .spirit {
+    display: none;
+  }
+  
+  .man {
+    display: none;
+  }
+  
+  .salvation {
+    display: none;
+  }
+  
+  .grace {
+    display: none;
+  }
+  
+  .church {
+    display: none;
+  }
+  
+  .baptism {
+    display: none;
+  }
+  
+  .supper {
+    display: none;
+  }
+  
+  .evangelism {
+    display: none;
+  }
+  
+  .sunday {
+    display: none;
+  }
+  
+  .last {
+    display: none;
+  }
+  
+  .education {
+    display: none;
+  }
+  
+  .stewardship {
+    display: none;
+  }
+  
+  .cooperation {
+    display: none;
+  }
+  
+  .social {
+    display: none;
+  }
+  
+  .liberty {
+    display: none;
+  }
+  
+  .family {
+    display: none;
+  }
+  
+  .directions {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: -3vh -1vw 0vh -1vw;
+    padding: 1vh 1vw;
+    font-size: 1.5vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .address {
+    margin: 0vh 1vw 0vh 0vw;
+  }
+  
+  .map iframe{
+    margin: 0vh 1vw 0vh 0vw;
+    width: 30vw;
+    height: 30vh;
+  }
+  
+  .building {
+    margin: 3vh -1vw 0vh 0vw;
+    width: 31vw;
+  }
+  
+  .bottomNav {
+    margin: 10vh 0vw 0vh 0vw;
+    font-size: 1.5vw;
+    height: 6vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .bottomNav a {
+    margin: 5vh 0.5vw 0vh 0.5vw;
+    padding: 2vh 1vw 5vh 1vw;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+  }
+  
+  
+  
+  
+  

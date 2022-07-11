@@ -7,6 +7,7 @@
 
 
 
+
 body {
   padding: 7vh 0vw 0vh 0vw;
   background-color: rgba(36, 37, 70);
@@ -77,43 +78,46 @@ header {
   text-align: center;
 }
 
-.join {
-  margin: -10vh 3vw -70vh 3vw;
+.contact {
+  margin: -10vh 3vw -65vh 3vw;
   color: white;
   font-size: 1.6vw;
 }
 
-.lamb {
-  margin: -30vh 0vw 0vh 53vw;
-  width: 30vw;
-  transform: rotate(20deg);
+.contact img {
+  width: 15vw;
 }
 
-.bread {
-  margin: -15vh 0vw 0vh 28vw;
-  width: 35vw;
-  transform: rotate(-1deg);
+.bible {
+  margin: -50vh 0vw 0vh 70vw;
+  width: 25vw;
+  transform: rotate(-10deg);
+  opacity: 0.95;
+}
+
+.synthesizer {
+  margin: -45vh 0vw 0vh 45vw;
+  width: 25vw;
+  transform: rotate(13deg);
   opacity: 0.65;
 }
 
-.church {
-  margin: -20vh 0vw 0vh 50vw;
-  width: 45vw;
-  transform: rotate(-10deg);
+.bread {
+  margin: -15vh 0vw 0vh 60vw;
+  width: 35vw;
+  transform: rotate(-1deg);
   opacity: 0.75;
 }
 
-.fellowshipLogo {
-  margin: -10vh 0vw 0vh 68vw;
-  width: 30vw;
-  transform: rotate(13deg);
-  border-radius: 100%;
-  opacity: 0.9;
+.acts242 {
+  margin: -15vh 0vw 0vh 40vw;
+  width: 25vw;
+  transform: rotate(20deg);
 }
 
 .directions {
   background-color: rgba(255, 255, 255, 0.75);
-  margin: -3vh -1vw 0vh -1vw;
+  margin: 3vh -1vw 0vh -1vw;
   padding: 1vh 1vw;
   font-size: 1.5vw;
   display: flex;
@@ -125,7 +129,7 @@ header {
   margin: 0vh 1vw 0vh 0vw;
 }
 
-.map iframe{
+.map iframe {
   margin: 0vh 1vw 0vh 0vw;
   width: 30vw;
   height: 30vh;
@@ -137,7 +141,7 @@ header {
 }
 
 .bottomNav {
-  margin: 10vh 0vw 0vh 0vw;
+  margin: 10vh 0vw 60vh 0vw;
   font-size: 1.5vw;
   height: 6vh;
   display: flex;
@@ -152,6 +156,7 @@ header {
   font-weight: 900;
   border-radius: 5%;
 }
+
 
 
 
