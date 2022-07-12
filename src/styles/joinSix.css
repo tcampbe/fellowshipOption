@@ -7,6 +7,7 @@
 
 
 
+
 body {
     padding: 7vh 0vw 0vh 0vw;
     background-color: rgba(36, 37, 70);
@@ -84,33 +85,32 @@ body {
   }
   
   .lamb {
-    margin: 45vh 0vw 4vh 10vw;
-    width: 20vw;
-    transform: rotate(20deg);
+    margin: 58vh 0vw -12vh 0vw;
+    width: 30vw;
+    transform: rotate(-20deg);
   }
   
   .bread {
-    margin: 0vh 0vw -3vh -3vw;
-    width: 20vw;
-    transform: rotate(-1deg);
+    margin: 0vh 0vw -40vh -8vw;
+    width: 30vw;
+    transform: rotate(-8deg);
   }
   
   .church {
-    margin: 0vh 0vw -2vh -4vw;
-    width: 30vw;
-    transform: rotate(-10deg);
+    margin: 0vh 0vw 2vh -24vw;
+    width: 40vw;
+    transform: rotate(10deg);
   }
   
   .fellowshipLogo {
-    margin: 0vh 0vw 0vh -5vw;
-    width: 20vw;
-    transform: rotate(13deg);
-    border-radius: 100%;
+    margin: 0vh 0vw -20vh -5vw;
+    width: 30vw;
+    transform: rotate(-11deg);
   }
   
   .directions {
     background-color: rgba(255, 255, 255, 0.75);
-    margin: 50vh -1vw 0vh -1vw;
+    margin: 40vh -1vw 0vh -1vw;
     padding: 1vh 1vw;
     font-size: 1.5vw;
     display: flex;
@@ -134,7 +134,7 @@ body {
   }
   
   .bottomNav {
-    margin: 10vh 0vw 0vh 0vw;
+    margin: 10vh 0vw 45vh 0vw;
     font-size: 1.5vw;
     height: 6vh;
     display: flex;

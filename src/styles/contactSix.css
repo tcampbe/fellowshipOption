@@ -7,26 +7,28 @@
 
 
 
+
 body {
+    padding: 7vh 0vw 0vh 0vw;
     background-color: rgba(36, 37, 70);
   }
   
   header {
     background-color: rgba(240, 248, 255, 0.9);
-    margin: -18vh 0vw 0vh -3vw;
+    margin: -8vh 0vw 0vh -3vw;
     padding: 0vh 0vw 0vh 4vw;
     width: 101%;
     position: fixed;
   }
   
   .logo {
-    margin: 1vh 0vw -6vh 38vw;
+    margin: 0vh 0vw -7vh 36vw;
     width: 6vw;
     border-radius: 100%;
   }
   
   .topNav {
-    margin: -8vh 3vw 0vh 0vw;
+    margin: -6vh 5vw 0vh 0vw;
     font-size: 1.5vw;
     height: 6vh;
     display: flex;
@@ -44,6 +46,7 @@ body {
   }
   
   .h1 {
+    margin: 0vh 0vw -3vh 0vw;
     font-size: 3.7vw;
     color: rgba(36, 37, 70);
     font-weight: 100;
@@ -64,50 +67,55 @@ body {
   
   .normal {
     font-size: 2.5vw;
-    padding: 1.5vh 0vw 0vh 0vw;
+    padding: 1.5vh 0vw 1vh 0vw;
   }
   
   .welcome {
     background-color: gold;
-    margin: 18vh 40vw -10vh 30vw;
-    padding: 0vh 0vw 0vh 0vw;
+    margin: -3vh 40vw 0vh 30vw;
+    padding: 0vh 1vw 0vh 0vw;
     font-size: 5vw;
-    text-align: center;
+    text-align: right;
   }
   
-  .hours {
-    margin: 0vh 0vw -40vh 0vw;
+  .contact {
+    margin: -6vh 3vw -85vh 3vw;
     color: white;
-    font-size: 1.3vw;
+    font-size: 1.6vw;
+    text-align: center;
+}
+  
+  .contact img {
+    width: 15vw;
   }
   
-  .sinner {
-    margin: 0vh 0vw -17vh 6vw;
-    width: 10vw;
-    transform: rotate(20deg);
-  }
-  
-  .word {
-    margin: 0vh 0vw -25vh -2vw;
-    width: 25vw;
-    transform: rotate(-1deg);
-  }
-  
-  .cross {
-    margin: 0vh 0vw -22vh -2vw;
-    width: 30vw;
+  .lamb {
+    margin: -50vh 0vw 0vh 60vw;
+    width: 35vw;
     transform: rotate(-10deg);
   }
   
-  .fellowship {
-    margin: 0vh 0vw 0vh -16vw;
-    width: 45vw;
-    transform: rotate(-3deg);
+  .openBible {
+    margin: -5vh 0vw -20vh 0vw;
+    width: 30vw;
+    transform: rotate(18deg);
+  }
+  
+  .bread {
+    margin: -40vh 0vw 0vh 65vw;
+    width: 35vw;
+    transform: rotate(12deg);
+  }
+  
+  .cross {
+    margin: 0vh 0vw 0vh 65vw;
+    width: 30vw;
+    transform: rotate(-5deg);
   }
   
   .directions {
     background-color: rgba(255, 255, 255, 0.75);
-    margin: 33vh -1vw 0vh -1vw;
+    margin: 0vh -1vw 0vh -1vw;
     padding: 1vh 1vw;
     font-size: 1.5vw;
     display: flex;
@@ -119,7 +127,7 @@ body {
     margin: 0vh 1vw 0vh 0vw;
   }
   
-  .map iframe{
+  .map iframe {
     margin: 0vh 1vw 0vh 0vw;
     width: 30vw;
     height: 30vh;
@@ -131,7 +139,7 @@ body {
   }
   
   .bottomNav {
-    margin: 10vh 0vw 40vh 0vw;
+    margin: 10vh 0vw 60vh 0vw;
     font-size: 1.5vw;
     height: 6vh;
     display: flex;
@@ -149,6 +157,6 @@ body {
   
   
   
-
+  
   
   

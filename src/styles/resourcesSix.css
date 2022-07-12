@@ -77,7 +77,7 @@ body {
   }
   
   .resources {
-    margin: 0vh 0vw -85vh 0vw;
+    margin: 0vh 0vw -60vh 0vw;
     color: white;
     font-size: 1.5vw;
   }
@@ -87,32 +87,48 @@ body {
   }
   
   .shelter {
-    margin: 0vh 0vw -20vh 23vw;
+    margin: 0vh 0vw -1vh 55vw;
     width: 12vw;
     transform: rotate(20deg);
-  }
+    opacity: 0.8;
+    border-radius: 20%;
+}
   
-  .money {
-    margin: 0vh 0vw -20vh -2vw;
+  .psalm5015 {
+    margin: 0vh 0vw 0vh 60vw;
     width: 25vw;
-    transform: rotate(-1deg);
-  }
+    transform: rotate(-10deg);
+    opacity: 0.8;
+    border-radius: 20%;
+}
   
   .clothing {
-    margin: 0vh 0vw -15vh -2vw;
+    margin: 2vh 0vw -10vh 50vw;
     width: 30vw;
-    transform: rotate(-10deg);
-  }
+    transform: rotate(15deg);
+    opacity: 0.6;
+    border-radius: 20%;
+}
   
   .food {
-    margin: 0vh 0vw 0vh -22vw;
+    margin: 0vh 0vw -30vh 35vw;
     width: 27vw;
-    transform: rotate(88deg);
+    transform: rotate(80deg);
+    opacity: 0.8;
+    border-radius: 20%;
+}
+
+  .prayer {
+    margin: 0vh 0vw 0vh 55vw;
+    width: 40vw;
+    transform: rotate(8deg);
+    opacity: 0.5;
+    border-radius: 20%;
   }
   
   .directions {
     background-color: rgba(255, 255, 255, 0.75);
-    margin: 43vh -1vw 0vh -1vw;
+    margin: 33vh -1vw 0vh -1vw;
     padding: 1vh 1vw;
     font-size: 1.5vw;
     display: flex;

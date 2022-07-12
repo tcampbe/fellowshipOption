@@ -79,7 +79,7 @@ header {
 }
 
 .contact {
-  margin: -10vh 3vw -65vh 3vw;
+  margin: -10vh 3vw -83vh 3vw;
   color: white;
   font-size: 1.6vw;
 }
@@ -88,36 +88,33 @@ header {
   width: 15vw;
 }
 
-.bible {
-  margin: -50vh 0vw 0vh 70vw;
-  width: 25vw;
+.lamb {
+  margin: -50vh 0vw 0vh 60vw;
+  width: 35vw;
   transform: rotate(-10deg);
-  opacity: 0.95;
 }
 
-.synthesizer {
-  margin: -45vh 0vw 0vh 45vw;
-  width: 25vw;
-  transform: rotate(13deg);
-  opacity: 0.65;
+.openBible {
+  margin: -15vh 0vw 0vh 40vw;
+  width: 30vw;
+  transform: rotate(18deg);
 }
 
 .bread {
-  margin: -15vh 0vw 0vh 60vw;
+  margin: -10vh 0vw 0vh 55vw;
   width: 35vw;
-  transform: rotate(-1deg);
-  opacity: 0.75;
+  transform: rotate(-12deg);
 }
 
-.acts242 {
-  margin: -15vh 0vw 0vh 40vw;
-  width: 25vw;
-  transform: rotate(20deg);
+.cross {
+  margin: -10vh 0vw 0vh 30vw;
+  width: 30vw;
+  transform: rotate(5deg);
 }
 
 .directions {
   background-color: rgba(255, 255, 255, 0.75);
-  margin: 3vh -1vw 0vh -1vw;
+  margin: 0vh -1vw 0vh -1vw;
   padding: 1vh 1vw;
   font-size: 1.5vw;
   display: flex;
